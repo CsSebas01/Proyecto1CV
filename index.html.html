@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
     <link rel="stylesheet" href="Style.css">
+    
 </head>
 <body>
-    
     <header class="header">
         <div class="menu container">
             <a href="#" class="logo" >CV</a>
@@ -18,15 +18,16 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobremi</a></li>
-                    <li><a href="#">Porfolio</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#yo">Sobre Mi</a></li>
+                    <li><a href="#proyectos">Porfolio</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contactos">Contacto</a></li>
                 </ul>
             </nav>
                 </div>
                 <div class="header-content container">
                     <div class="header-txt">
-                        <span>Soy</span>
+                        <span>Mi nombre es</span>
                         <h1>Sebastian M. Escobar Claros</h1>
                         <a href="#" class="btn-1">información</a>
                     </div>
@@ -41,11 +42,10 @@
         </div>
 
         <div class="about-txt">
-            <h2>Sobre mi</h2>
+            <h2 id="yo">Sobre mi</h2>
             <p>
-                Actualmente estoy estudiando un grado superior en Desarrollo de Aplicaciones Web, además tengo cierta experiencia en proyectos y prácticas personales sobre el diseño y desarrollo de páginas web en distintos lenguajes de programación y marcas.
+                Actualmente estoy estudiando un grado superior en Desarrollo de Aplicaciones Web, además tengo cierta experiencia en proyectos y prácticas personales sobre el diseño y desarrollo de páginas web en distintos lenguajes de programación y lenguajes de marcas.
                 <br>
-                Mi último proyecto personal es un curriculum vitae desarrollado con html y css
                 
             </p>
             <h2> Formación </h2>
@@ -55,14 +55,14 @@
             
         
              <div class="buttons">
-                <a href="#" class="btn-1">Porfolio</a>
+                <a href="#" class="btn-1">Portfolio</a>
                 <a href="#" class="btn-1">Tecnologías</a>
              </div>
         </div>
     </section>
-
+<hr>
     <main class="portfolio container">
-        <h2>Portfolio</h2>
+        <h2 id="proyectos">Portfolio</h2>
 
         <div class="porfolio-content">
 
@@ -71,8 +71,10 @@
                     <span>Proyecto 1</span>
                     <h3>Página Web "Curriculum"</h3>
                     <p>
-                        Currículum Vitae, creado en una plataforma editor de código fuente (Visual Studio Code) con HTML y CSS.
-
+                        Es la página actual con la que estamos interactuando, fue creado en una plataforma editor de código fuente (Visual Studio Code), programado con los lenguajes de marcas: HTML y CSS.
+                        <br>
+                        <br>
+                        <a href="https://www.infojobs.net/candidate/cv/view/index.xhtml" target="_blank" rel="noreferrer noopener">Link Perfil Infojobs</a>
                     </p>
                 
                 <a href="#" class="btn-1">leer mas</a>
@@ -93,7 +95,17 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit pariatur possimus illum voluptatum minus temporibus debitis! Cum quidem nisi est, rem aperiam obcaecati non itaque, impedit laboriosam assumenda harum! Cumque?
                 </p>
-                <a href="#" class="btn-1">leer mas</a>
+                <style>
+                    .boton1 { 
+                        background-color:#49BADA;
+                        color:azure;
+                        border: 5px solid azure;
+                        padding: 10px;
+                    }
+                </style>
+                <form action="Proyecto2.html" method="post">
+                    <button class="boton1" type "submit" >Visita mi Página</button>
+                </form>
             </div>
         </div>
 
@@ -126,48 +138,49 @@
     </div>
 </div> 
 </main>
-
+<hr>
     <section class="skills container">
         <h2>Experiencia en:</h2>
         <div class="skills-content">
             <img src="images/l5.png" alt="">
             <img src="images/l2.png" alt="">
             <img src="images/l7.png" alt="">
+            <img src="images/l4.png" alt="">
         </div>
     </section>
-
+<hr>
     <footer class="footer">
         <div class="footer-content container">
             <div class="link">
-                <h3>Soft Skills</h3>
+                <h3 id="habilidades">Soft Skills</h3>
                 <ul>
-                    <li><a href="#">-Trabajo en Equipo</a></li>
-                    <li><a href="#">-Aprendizaje Rápido</a></li>
-                    <li><a href="#">-Pensamiento Creativo</a></li>
-                    <li><a href="#">-Paciente</a></li>
-                    <li><a href="#">-Flexibilidad</a></li>
-                    <li><a href="#">-Siempre Puntual</a></li>
+                    <li><a>-Trabajo en Equipo</a></li>
+                    <li><a>-Aprendizaje Rápido</a></li>
+                    <li><a>-Pensamiento Creativo</a></li>
+                    <li><a>-Paciente</a></li>
+                    <li><a>-Flexibilidad</a></li>
+                    <li><a>-Siempre Puntual</a></li>
                 </ul>
             </div>
 
             <div class="link">
                 <h3>Hard Skills</h3>
                 <ul>
-                    <li><a href="#">-Gestión de proyectos</a></li>
-                    <li><a href="#">-Visual Studio Code</a></li>
-                    <li><a href="#">-Solución de problemas</a></li>
-                    <li><a href="#">-Inglés Intermedio</a></li>
-                    <li><a href="#">-Lenguajes de programación</a></li>
+                    <li><a>-Gestión de proyectos</a></li>
+                    <li><a>-Visual Studio Code</a></li>
+                    <li><a>-Solución de problemas</a></li>
+                    <li><a>-Inglés Intermedio</a></li>
+                    <li><a>-Lenguajes de programación</a></li>
                 </ul>
 
             </div>
 
             <div class="link">
-                <h3>CONTACTO</h3>
+                <h3 id="contactos">CONTACTO</h3>
                 <ul>
-                    <li><a href="#">-Teléfono: 604-995-403</a></li>
-                    <li><a href="#">-Correo: sec0007@alu.medac.es</a></li>
-                    <li><a href="#">-Domicilio: Calle del Tenis 4,Leganés-Madrid,28914</a></li>
+                    <li><a>-Teléfono: 604-995-403</a></li>
+                    <li><a>-Correo: sec0007@alu.medac.es</a></li>
+                    <li><a>-Domicilio: Calle del Tenis 4,Leganés-Madrid,28914</a></li>
                 </ul>
 
             </div>
@@ -175,7 +188,18 @@
             
 
         </div>
-    
+        <hr>
+        <br>
+        <center>
+            <style>
+                .final { 
+                    color:azure;
+                    padding:10px;
+                }
+            </style>
+            
+            <a href="#" class="final" >Volver al Inicio</a>
+        </center>
     </footer>
 </body>
 </html>
